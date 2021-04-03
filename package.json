@@ -1,0 +1,29 @@
+{
+  "name": "plant-app-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv-webpack": "^7.0.2",
+    "netlify-lambda": "^2.0.3",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "netlify-lambda serve functions --config ./webpack.functions.js",
+    "build": "netlify-lambda build functions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zgottlieb/plant-app-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zgottlieb/plant-app-backend/issues"
+  },
+  "homepage": "https://github.com/zgottlieb/plant-app-backend#readme"
+}

@@ -6,11 +6,9 @@
   "dependencies": {
     "dotenv-webpack": "^7.0.2",
     "netlify-lambda": "^2.0.3",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^3.0.0-beta.9"
   },
-  "devDependencies": {
-    "dotenv": "^8.2.0"
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "netlify-lambda serve functions --config ./webpack.functions.js",
